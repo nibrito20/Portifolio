@@ -32,9 +32,14 @@ h1 {
     color: plum;
 }
 
+h3 {
+    font-size: 18px;
+}
+
 h4 {
     margin-bottom: 4px;
 }
+
 
 .titulo {
     font-size: 28px;
@@ -53,6 +58,9 @@ h4 {
     justify-content: flex-start;
     gap: 30px;
     margin-top: 30px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
 }
 
 .ajustes-texto {
@@ -76,7 +84,6 @@ footer img {
     height: 40px;
 }
 
-
 footer a {
     margin: 20px;
     text-align: center;
@@ -84,6 +91,29 @@ footer a {
 
 footer p {
     margin-top: 2px;
+}
+
+.footer-projeto {
+    display: flex;
+    flex-direction: row;
+    align-items: center; 
+    justify-content: center;
+    margin-top: 10px;
+    gap: 5px;
+ }
+
+.footer-projeto a {
+    text-decoration: none;
+    color: inherit;
+    text-align:left;
+}
+  
+.footer-projeto p {
+    color: white;
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 0;
+    align-items: center;
 }
 
 nav a:hover {
@@ -95,6 +125,8 @@ nav {
     width: 100%;
     padding: 10px 0;
     text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
 }
 
 nav ul {
@@ -111,4 +143,41 @@ nav a {
   font-weight: bold;
   text-decoration: none;
   margin: 0 15px;
+}
+
+.bloco-projeto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+.fotos-projeto{
+    width: 150px;
+    height: 150px;
+    border: 0px;
+}
+
+  
+.redes-icon {
+    width: auto; 
+    height: 30px;
+    border: none;
+    justify-content:flex-start;
+}
+
+.img-projetos {
+    border-radius: 0;
+    object-fit: cover;
+
+}
+
+
+.descricao {
+    color: white;
+    margin-top: 5px;
+    font-size: 14px;
+    max-width: 600px;
+    line-height: 1.6;
 }
