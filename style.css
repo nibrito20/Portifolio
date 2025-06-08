@@ -181,3 +181,33 @@ nav a {
     max-width: 600px;
     line-height: 1.6;
 }
+
+.contato-modelo {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contato-modelo h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+  
+.contato-modelo p {
+    margin-bottom: 20px;
+    color: white;
+}
+
+.info-contato{
+    margin-top: 30px;
+    font-size: 0.95em;
+    color: #444;
+  }
+  
+.info-contato a {
+    color: plum;
+    text-decoration: none;
+}
+  
+.info-contato a:hover {
+    text-decoration: underline;
+}
